@@ -4,5 +4,21 @@ header {
   background: $black;
   color: $white;
   display: block;
+  height: 90px;
+  position: relative;
   width: 100%;
+
+  .logo {
+    left: 15px;
+    position: absolute;
+    top: 50%;
+    @include translateY(-50%);
+  }
+
+  nav {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    @include translateY(-50%);
+  }
 }
