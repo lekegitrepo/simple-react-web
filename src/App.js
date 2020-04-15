@@ -1,6 +1,5 @@
 import React from 'react';
-/*import './assets/css/default.min.css'*/
-import './assets/css/scss/default.min.css'
+import './assets/css/default.min.css'
 
 function App() {
   return (
