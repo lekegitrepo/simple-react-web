@@ -8,6 +8,7 @@ class Header extends React.Component {
         <nav>
           <ul>
             <li className='first'><a href='#'>Home</a></li>
+            <li><a href='#'>Products</a></li>
             <li><a href='#'>Career</a></li>
             <li><a href='#'>Contact</a></li>
             <li className='last'><a href='#'>About</a></li>
