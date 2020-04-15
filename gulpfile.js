@@ -19,6 +19,6 @@ function compileScss(){
   .pipe(dest(SCSS_DEST));
 }
 
-exports.build = compileScss
+watch(SCSS_SRC, series(compileScss))
 
-exports.default = watch(SCSS_SRC, series(compileScss));
+exports.default = compileScss
