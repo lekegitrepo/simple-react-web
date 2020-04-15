@@ -1,1 +1,8 @@
 @import "_config.scss";
+
+header {
+  background: $black;
+  color: $white;
+  display: block;
+  width: 100%;
+}
