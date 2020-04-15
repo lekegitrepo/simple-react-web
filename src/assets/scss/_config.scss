@@ -5,14 +5,6 @@ $lightGrey: #e6e6e6;
 $darkGrey: #333;
 $red: #ff1755;
 
-body {
-  color: $black;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-}
-
 @mixin translateY($e) {
   -webkit-transform: translateY($e);
   -moz-transform: translateY($e);
@@ -23,4 +15,28 @@ body {
   -webkit-transition:$e;
   -moz-transition:$e;
        transition: $e;
+}
+
+body {
+  color: $black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  cursor: pointer;
+  /*text-decoration: none;*/
+  @include transition(.4s ease-in-out);
+
+  &:hover {
+    color: $red;
+    @include transition(.4s ease-in-out);
+    text-decoration: none;
+  }
+}
+
+.container-fluid {
+  line-height: 24px;
 }
