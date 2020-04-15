@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/headerComponent/header';
+import HomePage from './components/pages/homePage';
 import Footer from './components/footerComponent/footer';
 import './assets/css/default.min.css';
 
@@ -8,6 +9,7 @@ class App extends React.Component {
     return (
       <div className= 'App'>
         <Header />
+        <HomePage />
         <Footer />
       </div>
     )
