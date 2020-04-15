@@ -15,10 +15,23 @@ header {
     @include translateY(-50%);
   }
 
+  nav,
+  nav ul,
+  nav ul li {
+    margin: 0;
+    padding: 0;
+  }
+
   nav {
     position: absolute;
     right: 15px;
     top: 50%;
     @include translateY(-50%);
+
+    ul li {
+      display: inline-block;
+      list-style-type: none;
+      margin-right: 10px;
+    }
   }
 }
