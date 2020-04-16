@@ -6,19 +6,21 @@ class Footer extends React.Component {
     return (
       <footer className='container-fluid'>
         <div className='row'>
-          <div className='col-md-8'>
+          <div className='col-md-8 footer-main'>
             <Link to='/Careers'> Careers </Link>
             <Link to='/Contacts'> Contacts </Link>
             <Link to='/About'> About </Link>
             <Link to='/Copyright'> Copyright </Link>
             <Link to='/Terms'> Terms and Conditions </Link>
           </div>
-          <div className='col-md-4'>
-            <Link to='#'> facebook </Link>
-            <Link to='#'> twitter </Link>
-            <Link to='#'> linkedin </Link>
-            <Link to='#'> instagram </Link>
-            <Link to='#'> telegram </Link>
+          <div className='col-md-4 social-media'>
+            <Link to='#'> <i class="fab fa-facebook-square"></i> </Link>
+            <Link to='#'> <i class="fab fa-twitter-square"></i
+                  > </Link>
+            <Link to='#'> <i class="fab fa-linkedin"></i
+                  > </Link>
+            <Link to='#'> <i class="fab fa-instagram-square"></i> </Link>
+            <Link to='#'> <i class="fab fa-telegram-plane"></i> </Link>
           </div>
         </div>
         {/*<ul>
