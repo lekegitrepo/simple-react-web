@@ -1,7 +1,7 @@
 @import "_config.scss";
 
 header {
-  background: $black;
+  background: $fadeBlack;
   color: $white;
   display: block;
   height: 50px;
@@ -44,4 +44,13 @@ header {
       }
     }
   }
+}
+
+footer {
+  background: $black;
+  color: $white;
+  display: block;
+  height: 50px;
+  position: relative;
+  width: 100%;
 }
