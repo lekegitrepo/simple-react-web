@@ -57,8 +57,22 @@ footer {
   }
 }
 
+ul li, .row div a {
+  margin-right: 20px;
+
+  &.last {
+    margin: 0;
+  }
+}
+
 a {
   color: $white;
   font-size: 19px;
   line-height: normal;
+}
+
+@media only screen and (min-width: 1024px) {
+  div.social-media {
+    justify-content: flex-end;
+  }
 }
