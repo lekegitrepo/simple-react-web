@@ -14,13 +14,13 @@ class Footer extends React.Component {
             <Link to='/Terms'> Terms and Conditions </Link>
           </div>
           <div className='col-md-4 social-media'>
-            <Link to='#'> <i class="fab fa-facebook-square"></i> </Link>
-            <Link to='#'> <i class="fab fa-twitter-square"></i
+            <Link to='#'> <i className="fab fa-facebook-square"></i> </Link>
+            <Link to='#'> <i className="fab fa-twitter-square"></i
                   > </Link>
-            <Link to='#'> <i class="fab fa-linkedin"></i
+            <Link to='#'> <i className="fab fa-linkedin"></i
                   > </Link>
-            <Link to='#'> <i class="fab fa-instagram-square"></i> </Link>
-            <Link to='#'> <i class="fab fa-telegram-plane"></i> </Link>
+            <Link to='#'> <i className="fab fa-instagram-square"></i> </Link>
+            <Link to='#'> <i className="fab fa-telegram-plane"></i> </Link>
           </div>
         </div>
         {/*<ul>

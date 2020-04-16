@@ -36,12 +36,6 @@ header {
       &.last {
         margin: 0;
       }
-
-      a {
-        color: $white;
-        font-size: 19px;
-        line-height: normal;
-      }
     }
   }
 }
@@ -53,4 +47,18 @@ footer {
   height: 50px;
   position: relative;
   width: 100%;
+
+  .row {
+    height: 100%;
+    div {
+      align-items: center;
+      display: flex;
+    }
+  }
+}
+
+a {
+  color: $white;
+  font-size: 19px;
+  line-height: normal;
 }
