@@ -4,7 +4,7 @@ class HomePage extends React.Component {
   render () {
     return (
       <div className='container-fluid'>
-        <h1> Home page content </h1>
+        <h1> Home page contents </h1>
 
         <p>
           Proident sed irure aliqua est eiusmod reprehenderit ex amet eu duis do fugiat cupidatat velit dolor mollit nisi dolore esse labore anim dolor enim proident.
