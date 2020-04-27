@@ -21,6 +21,7 @@
   .form-group input[type='text'],
   .form-group input[type='email'],
   .form-group input[type='phone'] {
+    background-color: #fbfbfb7d;
     border-bottom: 2px solid #ff1755;
     font-size: 25px;
     height: 60px;
@@ -39,5 +40,9 @@
       background-color: #171717;
       color: #ff1755;
     }
+  }
+
+  ::placeholder {
+    color: #171717;
   }
 }
