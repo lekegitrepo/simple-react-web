@@ -40,6 +40,12 @@ header {
   }
 }
 
+.contact {
+  .form-group input {
+    border: none;
+  }
+}
+
 footer {
   background: $black;
   color: $white;

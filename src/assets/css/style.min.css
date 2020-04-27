@@ -1,1 +1,1 @@
-.contact{align-items:center;display:flex;flex-direction:column;justify-content:center}.form-group input{display:block}
+.contact{align-items:center;display:flex;flex-direction:column;justify-content:center}.contact .form-group input{display:block;margin:18px}.contact .form-group input[type=email],.contact .form-group input[type=phone],.contact .form-group input[type=text]{border-bottom:2px solid #ff1755;height:60px;width:100%}.contact .form-group input[type=email]:focus,.contact .form-group input[type=phone]:focus,.contact .form-group input[type=text]:focus{outline:0}
