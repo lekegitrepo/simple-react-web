@@ -6,6 +6,7 @@ import Products from './components/pages/products';
 import Contact from './components/pages/contact';
 import Footer from './components/footerComponent/footer';
 import './assets/css/default.min.css';
+import './assets/css/style.min.css';
 
 class App extends React.Component {
   render () {
