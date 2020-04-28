@@ -46,3 +46,18 @@
     color: #171717;
   }
 }
+
+.card {
+  border: none;
+  position: relative;
+
+  img {
+    min-height: 500px;
+  }
+
+  .card-body {
+    bottom: 0;
+    background-color: #fbfbfb7d;
+    position: absolute;
+  }
+}

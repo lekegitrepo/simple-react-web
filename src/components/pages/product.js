@@ -6,10 +6,9 @@ const Product = () => {
     <div className="card mb-3 col-md-4">
       <img src={Image} className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
+        <h5 className="card-title">Interior Design</h5>
         <p className="card-text">This is a wider card with supporting 
-        text below as a natural lead-in to additional content. 
-        This content is a little bit longer.</p>
+        text below as a natural lead-in to additional content.</p>
         <p className="card-text">
           <small className="text-muted">Last updated 3 mins ago</small>
         </p>
