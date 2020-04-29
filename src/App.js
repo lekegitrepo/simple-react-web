@@ -19,7 +19,7 @@ class App extends React.Component {
               <Route exact path='/Products' component={Products} />
               <Route exact path='/Contact' component={Contact} />
             </main>
-          <Footer />
+          {/*<Footer />*/}
         </div>
       </Router>
     )
