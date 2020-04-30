@@ -1,40 +1,48 @@
 @import "_config.scss";
 
 header {
-  background: $fadeBlack;
-  color: $white;
-  display: block;
-  height: 50px;
-  position: relative;
+  left: 0;
+  position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 10;
 
-  .logo {
-    left: 15px;
-    position: absolute;
-    top: 50%;
-    @include translateY(-50%);
-  }
+  .header {
+    background: $fadeBlack;
+    color: $white;
+    display: block;
+    height: 50px;
+    position: relative;
+    width: 100%;
 
-  nav,
-  nav ul,
-  nav ul li {
-    margin: 0;
-    padding: 0;
-  }
+    .logo {
+      left: 15px;
+      position: absolute;
+      top: 50%;
+      @include translateY(-50%);
+    }
 
-  nav {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    @include translateY(-50%);
+    nav,
+    nav ul,
+    nav ul li {
+      margin: 0;
+      padding: 0;
+    }
 
-    ul li {
-      display: inline-block;
-      list-style-type: none;
-      margin-right: 20px;
+    nav {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      @include translateY(-50%);
 
-      &.last {
-        margin: 0;
+      ul li {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 20px;
+
+        &.last {
+          margin: 0;
+        }
       }
     }
   }
