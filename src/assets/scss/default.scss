@@ -1,5 +1,9 @@
 @import "_config.scss";
 
+.block-d {
+  display: block;
+}
+
 header {
   left: 0;
   position: fixed;
@@ -10,7 +14,6 @@ header {
   .header {
     background: $transBlack;
     color: $white;
-    display: block;
     height: 50px;
     position: relative;
     width: 100%;
@@ -60,7 +63,6 @@ header {
 footer {
   background: $black;
   color: $white;
-  display: block;
   height: 50px;
   position: relative;
   width: 100%;
