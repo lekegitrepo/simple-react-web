@@ -16,6 +16,8 @@ header {
     width: 100%;
 
     .logo {
+      font-family: 'Monoton', cursive;
+      font-size: 30px;
       left: 15px;
       position: absolute;
       top: 50%;
@@ -37,6 +39,7 @@ header {
 
       ul li {
         display: inline-block;
+        font-family: 'Orbitron', sans-serif;
         list-style-type: none;
         margin-right: 20px;
 
