@@ -6,14 +6,13 @@ class Header extends React.Component {
     return (
       <header>
         <div className='header'>
-          <div className='logo'> LOGO </div>
+          <div className='logo'> Interior Design </div>
           <nav>
             <ul>
               <li className='first'><Link to='/'> Home </Link></li>
               <li>
                 <Link to='/Products'> Products </Link>
               </li>
-              <li><Link to='/Careers'> Careers </Link></li>
               <li><Link to='/Contact'> Contacts </Link></li>
               <li className='last'><Link to='/About'> About </Link></li>
             </ul>
