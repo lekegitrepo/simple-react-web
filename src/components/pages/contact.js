@@ -5,7 +5,7 @@ class Contact extends React.Component {
   render () {
     return (
       <div className="container-fluid contact">
-        <h1 className="mt-5"> Contact us </h1>
+        <h1 className="mt-5 title"> Contact us </h1>
         <Form />
       </div>
     )

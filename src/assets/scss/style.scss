@@ -12,7 +12,17 @@ html, body, #container, .carousel {
 
 .design-container, .contact {
   margin-top: 45px;
+
+  .title {
+    font-family: 'Righteous', cursive;
+  }
 }
+
+/*.design-container {
+  .title {
+    font-family: 'Righteous', cursive;
+  }
+}*/
 
 .contact {
   align-items: center;
