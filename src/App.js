@@ -4,6 +4,7 @@ import Header from './components/headerComponent/header';
 import HomePage from './components/pages/homePage';
 import Products from './components/pages/products';
 import Contact from './components/pages/contact';
+import About from './components/pages/about';
 import Footer from './components/footerComponent/footer';
 import './assets/css/default.min.css';
 import './assets/css/style.min.css';
@@ -18,6 +19,7 @@ class App extends React.Component {
               <Route exact path='/' component={HomePage} />
               <Route exact path='/Products' component={Products} />
               <Route exact path='/Contact' component={Contact} />
+              <Route exact path='/About' component={About} />
             </main>
           {/*<Footer />*/}
         </div>
