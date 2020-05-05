@@ -1,8 +1,8 @@
 import React from 'react';
 import ImageSlide from './image-slide';
-import Image1 from '../../assets/img/image-1.jpg';
-import Image2 from '../../assets/img/image-2.jpg';
-import Image3 from '../../assets/img/image-3.jpg';
+import Image1 from '../../assets/img/designs/image-1.jpg';
+import Image2 from '../../assets/img/designs/image-2.jpg';
+import Image3 from '../../assets/img/designs/image-3.jpg';
 
  const imgUrls = [Image1, Image2, Image3];
 
