@@ -1,4 +1,3 @@
-import Image from '../img/designs/image-1.jpg';
 
 function importAll(r) {
   let images = {};
@@ -20,11 +19,23 @@ const contents = [
     title: 'Interior swimming pool'
   },
   {image: images['image-6.jpg'],
-    desc: "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    title: 'Interior Design'
+    desc: "Beautiful Modern Bedroom Design",
+    title: 'Modern Bedroom'
   },
   {image: images['image-7.jpg'],
-    desc: "This is a wider card with supporting text below as a natural lead-in to additional content.",
+    desc: "Well Furnished Bathroom",
+    title: 'Bathroom'
+  },
+  {image: images['image-8.jpg'],
+    desc: "Beautiful Interior Design",
+    title: 'Interior Design'
+  },
+  {image: images['image-9.jpg'],
+    desc: "Beautiful Interior Design",
+    title: 'Interior Design'
+  },
+  {image: images['image-10.jpg'],
+    desc: "Beautiful Interior Design",
     title: 'Interior Design'
   }
 ]
