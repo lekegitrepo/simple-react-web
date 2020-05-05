@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <header>
         <div className='header block-d'>
-          <div className='logo'> Interior Design </div>
+          <div className='logo'> Interior Designs </div>
           <nav>
             <ul>
               <li className='first'><Link to='/'> Home </Link></li>
