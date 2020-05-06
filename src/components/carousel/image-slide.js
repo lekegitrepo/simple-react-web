@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ImageSlide = ({ imageUrl }) => {
   const {image, desc, title} = imageUrl
@@ -12,8 +13,11 @@ const ImageSlide = ({ imageUrl }) => {
   return (
     <div className="image-slide" style={styles}>
       <div className="slide-desc trans-white-bg"> 
-        <div className="title"> { title } </div>
-        <div className="desc"> { desc } </div>
+        <div className="info">
+          <div className="title"> { title } </div>
+          <div className="desc"> { desc } </div>
+        </div>
+        <Link className="slide-detail" to="/" > click here for detail </Link>
       </div>
     </div>
   );
