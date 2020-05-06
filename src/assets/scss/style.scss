@@ -10,6 +10,18 @@ html, body, #container, .carousel {
   transition: background-image .6s cubic-bezier(0.5, 0.7, 0.7, 0.7);
 }
 
+.about {
+  position: relative;
+
+  .about-img {
+    background-image: url("../img/bg-2.jpg");
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    width: 100%
+  }
+}
+
 .page-container, .contact {
   margin-top: 45px;
 
@@ -19,7 +31,7 @@ html, body, #container, .carousel {
 
   .about-text {
     font-family: 'Poiret One', cursive;
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 
