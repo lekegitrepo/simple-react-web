@@ -10,6 +10,24 @@ html, body, #container, .carousel {
   transition: background-image .6s cubic-bezier(0.5, 0.7, 0.7, 0.7);
 }
 
+.trans-white-bg {
+  background-color: #fbfbfb7d;
+}
+
+.title, .card-body {
+    font-family: 'Righteous', cursive;
+  }
+
+.slide-desc {
+  left: 20px;
+  position: absolute;
+  top: 50px;
+}
+
+.slide-desc, .page-container, .contact {
+  margin-top: 45px;
+}
+
 .about {
   position: relative;
 
@@ -19,19 +37,6 @@ html, body, #container, .carousel {
     opacity: 0.3;
     position: absolute;
     width: 100%
-  }
-}
-
-.page-container, .contact {
-  margin-top: 45px;
-
-  .title {
-    font-family: 'Righteous', cursive;
-  }
-
-  .about-text {
-    font-family: 'Poiret One', cursive;
-    font-size: 26px;
   }
 }
 
@@ -49,7 +54,6 @@ html, body, #container, .carousel {
     background-size: cover;
 
   .form-container {
-    background-color: #fbfbfb7d;
     border-radius: 15px;
     height: 100vh;
     margin-top: 10px;
@@ -99,6 +103,14 @@ html, body, #container, .carousel {
  }
 }
 
+.page-container, .contact {
+
+  .about-text {
+    font-family: 'Poiret One', cursive;
+    font-size: 26px;
+  }
+}
+
 .card {
   border: none;
   position: relative;
@@ -109,8 +121,6 @@ html, body, #container, .carousel {
 
   .card-body {
     bottom: 0;
-    background-color: #fbfbfb7d;
-    font-family: 'Righteous', cursive;
     position: absolute;
     width: 95%;
   }

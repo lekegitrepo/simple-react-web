@@ -11,7 +11,10 @@ const ImageSlide = ({ imageUrl }) => {
 
   return (
     <div className="image-slide" style={styles}>
-      
+      <div className="slide-desc trans-white-bg"> 
+        <div className="title"> { title } </div>
+        <div className="desc"> { desc } </div>
+      </div>
     </div>
   );
 }
