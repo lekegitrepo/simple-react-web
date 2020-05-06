@@ -25,6 +25,10 @@ header {
       position: absolute;
       top: 50%;
       @include translateY(-50%);
+
+      a {
+        font-size: 24px;
+      }
     }
 
     nav,
